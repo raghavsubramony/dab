@@ -1,0 +1,98 @@
+
+<div class=" content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <img src="../../assets/SVG/SVG/MBP/eye.svg" style="width: 20px;"/>
+                        </div>
+                        <p class="card-category">MBP</p>
+                        <h3 class="card-title">49/50</h3>
+                        <h4>
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#MBP"
+                                    aria-expanded="false" aria-controls="MBP">Click Here</a>
+                            </p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-success card-header-icon">
+                        <div class="card-icon">
+                            <img src="../../assets/SVG/SVG/EBE/quadrants.png" style="width: 20px;"/>
+                        </div>
+                        <p class="card-category">EBE</p>
+                        <h3 class="card-title">10/20</h3>
+                        <h4>
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#MBP"
+                                    aria-expanded="false" aria-controls="MBP">Click Here</a>
+                            </p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-danger card-header-icon">
+                        <div class="card-icon">
+                            
+                        </div>
+                        <p class="card-category">TEBE</p>
+                        <h3 class="card-title">12/16</h3>
+                        <h4>
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#MBP"
+                                    aria-expanded="false" aria-controls="MBP">Click Here</a>
+                            </p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-info card-header-icon">
+                        <div class="card-icon">
+                            
+                        </div>
+                        <p class="card-category">Prospector</p>
+                        <h3 class="card-title">30/40</h3>
+                        <h4>
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#MBP"
+                                    aria-expanded="false" aria-controls="MBP">Click Here</a>
+                            </p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="content">
+
+<h1>Insurance Policy Management</h1>
+<div>
+
+  <table border='1' width='100%' style='border-collapse: collapse;'>
+    <tr>
+      <th>Testcase Name</th>
+      <th>Project ID</th>
+      <th>Status</th>
+      
+
+    </tr>
+
+    <tr *ngFor="let runid of runid">
+      <td>{{ runid.testcase_name }}</td>
+      <td>{{ runid.project_id }}</td>
+      <td>{{ runid.testcase_execution_status }}</td>
+      
+    </tr>
+  </table>
+</div>

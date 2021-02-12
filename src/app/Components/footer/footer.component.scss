@@ -1,0 +1,180 @@
+.footer {
+    padding: 24px 0 24px 250px;
+  }
+  
+.FooterViolet{
+    color:#632678;
+    margin-top:25px;
+    padding:0 5px
+}
+.FooterDarkBlue,.FooterViolet{
+    overflow:hidden;
+    text-align:center;
+    font-size:18px
+}
+.FooterDarkBlue{
+    color:#3d87af;
+    margin:15px 15px 12px
+}
+.FooterContactUs{
+    overflow:hidden;
+    text-align:center;
+    color:#632678;
+    font-size:18px;
+    padding-bottom:4px
+}
+.FooterContactUs:after,.FooterContactUs:before{
+    content:"";
+    display:inline-block;
+    height:1px;
+    position:relative;
+    vertical-align:middle;
+    width:50%
+}
+.FooterContactUs:before{
+    right:20px;
+    margin-left:-50%;
+    background-color:#3d87af
+}
+.FooterContactUs:after{
+    left:20px;
+    margin-right:-50%;
+    background-color:#632678
+}
+.ContactUsDivider{
+    margin:10px
+}
+.line-separator{
+    height:1px;
+    background:#eee;
+    margin:20px 50px 10px
+}
+.FooterDocumentsContainer{
+    margin:0 auto
+}
+.FooterDocument a{
+    color:#3d87af;
+    font-size:18px;
+    margin:20px;
+    float:left
+}
+.FooterSubText{
+    overflow:hidden;
+    text-align:center;
+    color:#aaa;
+    font-size:12px;
+    margin:5px 20px
+}
+.FooterSubText a{
+    color:#3d87af
+}
+.SocialMediaContainer{
+    margin-top:20px
+}
+.SocialMediaContainer,.tblSocialMedia{
+    background-color:#eee;
+    padding:26px 0;
+    min-height:45px;
+    width:100%
+}
+.innerMediaContainer{
+    padding-left:24px
+}
+.Stripe img{
+    height:45px;
+    float:right;
+    margin-right:42px
+}
+.SocialMedia{
+    float:left;
+    padding-right:10px
+}
+.SocialMedia,.SocialMedia img{
+    width:45px;
+    height:45px
+}
+.SocialMedia:hover img{
+    opacity:.7
+}
+.promotionalOfferText{
+    margin:20px
+}
+@media only screen and (max-width:640px){
+    #anchorEmail{
+        margin-top:-6px
+    }
+    .FooterDocumentsContainer a{
+        width:100%
+    }
+    .FooterDocument{
+        text-align:center
+    }
+    .FooterDocument a{
+        margin:10px 0
+    }
+    .FooterViolet{
+        padding:0 25px
+    }
+    .FooterDarkBlue{
+        padding:0;
+        margin:6px
+    }
+    .ContactUsDivider{
+        display:none
+    }
+    #anchorEmail,#anchorTelNo{
+        width:100%;
+        float:left;
+        margin:10px 0
+    }
+    .SocialMediaContainer{
+        margin:auto;
+        padding:5px 0 0
+    }
+    .tblSocialMedia{
+        padding:5px 0;
+        text-align:center
+    }
+    .SocialMedia{
+        float:left;
+        width:20%;
+        padding-right:0
+    }
+    .SocialMedia img{
+        margin:8px
+    }
+    .Stripe img{
+        float:none;
+        margin:auto
+    }
+    .FooterSubText{
+        padding:14px 8px;
+        margin:-12px 5px 0
+    }
+    .FooterSubText a{
+        color:#3d87af
+    }
+    .line-separator{
+        margin-top:10px;
+        margin-bottom:10px
+    }
+    .innerMediaContainer{
+        margin-right:0;
+        padding-left:0
+    }
+    .promotionalOfferText{
+        margin-top:0
+    }
+}
+@media only screen and (max-width:560px){
+    .innerMediaContainer{
+        margin-right:0;
+        padding-left:0
+    }
+    .SocialMediaContainer{
+        padding-top:0
+    }
+}
+.outerContainer{
+    height:212px
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  position: initial;
+  top: 0;
+  height: 100%;
+}
+
+
+.main-panel {
+  position: absolute;
+  float: right;
+  width: 100%;
+  min-height: 100%;
+  border-top: 2px solid #e14eca;
+  background: linear-gradient(#eaeaf0, #d1d1d8)
+}
